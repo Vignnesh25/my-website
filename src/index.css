@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Hanken Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #eae8e3;
+    color: #1c1b1b;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #eae8e3;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #1c1b1b;
+    border-radius: 0px;
+  }
+}
+
+.font-heading {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.font-mono-code {
+  font-family: 'Space Mono', monospace;
+}
+
+.font-body {
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+
+/* Brutalist hard shadows */
+.brutal-shadow {
+  box-shadow: 4px 4px 0px #1c1b1b;
+}
+
+.brutal-shadow-sm {
+  box-shadow: 2px 2px 0px #1c1b1b;
+}
+
+.brutal-shadow-md {
+  box-shadow: 3px 3px 0px #1c1b1b;
+}
+
+.brutal-shadow-lg {
+  box-shadow: 6px 6px 0px #1c1b1b;
+}
+
+.brutal-shadow-rust {
+  box-shadow: 3px 3px 0px #d95d39;
+}
+
+.brutal-shadow-orange {
+  box-shadow: 3px 3px 0px #fe7952;
+}
+
+.brutal-border {
+  border: 2px solid #1c1b1b;
+}
+
+.brutal-btn-active:active {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 0px #1c1b1b;
+}
+
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+}
+
