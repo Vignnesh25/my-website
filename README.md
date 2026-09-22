@@ -1,0 +1,3 @@
+ersonal Portfolio Website
+
+This is my personal portfolio website, created to showcase my skills, projects, education, and professional profile. I am JS Vignnesh, an AI & Data Science student at REVA University with an interest in programming, web development, data science, and technology. The portfolio is built using HTML, CSS, and JavaScript with a modern, responsive, and mobile-friendly design. It includes sections for Home, About Me, Skills, Projects, Education, and Contact, along with links to my GitHub, LinkedIn, email, and live portfolio website. The project demonstrates my web development skills and provides an online platform to present my academic and personal projects.
